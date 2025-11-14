@@ -19,6 +19,29 @@
     padding: 15px;
 }
 
+.inspiring-quote-container {
+    background-color: #4682B4;
+    margin-top: 25px;
+    padding: 15px;
+    display: flex;;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 25px;
+    color: #FFE5B4;
+    letter-spacing: 1.5px;
+    font-style: italic;
+}
+
+.quote-authur {
+    font-size: 18px;
+    color: #FFE5B4;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: right;
+}
+
 ul {
     list-style: none;
 }
@@ -33,5 +56,13 @@ li p {
     height: auto;
     margin: 15px auto;
     justify-content: flex-start;
+}
+
+blockquote {
+    font-size: 20px;
+    margin: 0;
+    padding: 30px 10px;
+    text-align: center;
+    width: 600px;
 }
 
